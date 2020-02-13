@@ -35,10 +35,11 @@ Keep reading for some help on using the pipelines.
 * These CellProfiler pipelines will usually create a number of different spreadsheets. One will be called “Image”, this once will contain image level measurements (I.e. number of nuclei per image, mean size of nuclei per image, mean intensity per image. You will also have a spreadsheet for each “Object” created in CellProfiler (i.e. Nuclei, Foci, Cell). This will contain the measurements for the objects (but also lists the image each one came from). If you are doing a large number of images it is likely worth using a data analysis program like R to analyse your images. The facility can help you with setting this up.
 *	By default CellProfiler scales all intensity values from 0 – 1. It does this by dividing the intensity values by the maximum possible value your images could have based on the bit-depth (i.e. for 16-bit images all the values are divided by 65535).
 *	Remember, the distance results are in pixels (or pixels squared for area), so you may want to convert to microns using the scaling factor of your images. One way to do this is to open an image in FIJI and go to Image > Properties to see your pixel height and width.
+
 **	Example calculation
-***	CellProfiler nuclear area = 6663 pixels squared
-*** Pixel size of image = 0.414
-*** Area in microns = 6663*(0.41432042) = 1143.780
+***	CellProfiler nuclear area = 12884 pixels squared
+*** Square pixel size of image = 0.0515*0.0515
+*** Area in microns = 12884*( 0.0515*0.0515) = 34.1625
 
 **Analyze Images**
 *	Once you have adjusted the pipeline as you want, exit “Test Mode”. 
