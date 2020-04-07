@@ -46,6 +46,7 @@ Keep reading for some help on using the pipelines.
 *	Click the “Analyze Images” button. This will run all your images through the pipeline. You will see a loading bar in the bottom right indicating how much is done and a window will pop up to say the analysis is complete once it’s done. 
 
 **Further help if you are a first time user**
+
 If you are opening CellProfiler you should see the Welcome window which has lots of helpful links on it:
 *	If you click “Load” of ‘Load an example pipeline’ then a pipeline and a set of images will be loaded in your program. This can be run to get used to what the standard modules are if you’ve never used CellProfiler before.
 *	If you click the “Download” link you will be taken to a page with example pipelines made by the CellProfiler team with images that can be run using.
