@@ -31,7 +31,7 @@ Keep reading for some help on using the pipelines.
 
 **Output**
 *	All CellProfiler pipelines created in the facility are set to save any output (i.e. images and the spreadsheets) to the “Default Output Folder”
-**	To change the default output folder, click the “View Output Settings” at the bottom left of the GUI. 
+  *	To change the default output folder, click the “View Output Settings” at the bottom left of the GUI. 
 * These CellProfiler pipelines will usually create a number of different spreadsheets. One will be called “Image”, this once will contain image level measurements (I.e. number of nuclei per image, mean size of nuclei per image, mean intensity per image. You will also have a spreadsheet for each “Object” created in CellProfiler (i.e. Nuclei, Foci, Cell). This will contain the measurements for the objects (but also lists the image each one came from). If you are doing a large number of images it is likely worth using a data analysis program like R to analyse your images. The facility can help you with setting this up.
 *	By default CellProfiler scales all intensity values from 0 – 1. It does this by dividing the intensity values by the maximum possible value your images could have based on the bit-depth (i.e. for 16-bit images all the values are divided by 65535).
 *	Remember, the distance results are in pixels (or pixels squared for area), so you may want to convert to microns using the scaling factor of your images. One way to do this is to open an image in FIJI and go to Image > Properties to see your pixel height and width.
