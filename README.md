@@ -1,5 +1,5 @@
 # CellProfiler
-This repository contains CellProfiler Pipelines written for users of the IGMM AIR facility. 
+This repository contains CellProfiler Pipelines written for users of the IGC AIR facility. 
 Keep reading for some help on using the pipelines.
 
 # How to use a CellProfiler Pipeline
