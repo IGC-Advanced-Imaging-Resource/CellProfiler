@@ -3,9 +3,16 @@ This repository contains CellProfiler Pipelines written for users of the IGC AIR
 Keep reading for some help on using the pipelines.
 
 # How to use a CellProfiler Pipeline
-**Loading a pipeline**
+**Loading a pipeline to run**
 *	The easiest way to load a CellProfiler pipeline is to drag the .cpipe file over to the white window on left side of the GUI. Once you drag it you will be asked if you want to load the pipeline to which you can say “Yes”.
 *	Alternatively, you can go to ‘File’ > ‘Import’ > ‘Pipeline from file’
+
+**Running a pipeline straight from Github**
+* Go to the pipeline you want here in this repository (for example - https://github.com/IGC-Advanced-Imaging-Resource/CellProfiler/blob/master/Nuclei_Cytoplasm_Intensity.cppipe)
+* If you click the "raw" button near the top right of the top of the code you will go to a new page where the script code is shown in raw form
+* Copy the URL of that page
+* Open CellProfiler and in the main window go to File > Import > Import from URL...
+![Screenshot](https://github.com/IGC-Advanced-Imaging-Resource/CellProfiler/blob/master/images/ImportFromURL.jpg?raw=true)
 
 **Loading images**
 *	The first four modules which will be in any pipeline are ‘Images’, ‘Metadata’, ‘NamesAndTypes’ and ‘Groups’. 
